@@ -1,7 +1,5 @@
 # SoundSwap
 
-THERE ARE FEW GLOBAL SOUNDS THAT YOU WON'T FIND IN THE SOUNDS PACKAGE ARE NOT REPLACABLE AS OF NOW, THIS WILL BE POSSIBLE WITHIN FEW DAYS AS I UPDATE THE MOD, 90% OF THE SOUNDS ARE REPLACABLE AT THE MOMENT
-
 This mod is created to work with [BepInEx](https://github.com/BepInEx/BepInEx), you would unzip the .zip file from [Releases](https://github.com/ru-mii/ADGAC-SoundSwap/releases) and then copy paste into your plugins folder in BepInEx, should like like this...
 
 ![image](https://github.com/ru-mii/ADGAC-SoundSwap/assets/118167137/148570f5-5f02-4023-b639-27c15ffeeca6)
@@ -49,3 +47,6 @@ If you don't want volume or pitch to be random with each time it plays then chan
 * Yes! If you remove a folder that has a sound for example "kallsup1" in "SoundManager" it will simply leave the default game sound as it is,
 you can also remove the folders in higher hierarchy like "PlayerBodySoundManager", "PlayerSoundManager" or "SoundManager" if you're not replacing
 any sounds that fall in their structure, plugin will then just leave the default sound in the game.
+
+**Additional info**
+* THERE ARE FEW GLOBAL SOUNDS THAT YOU WON'T FIND IN THE SOUNDS PACKAGE, THESE ARE NOT REPLACABLE AS OF NOW, IT WILL BE POSSIBLE WITHIN FEW DAYS AS I UPDATE THE MOD, IF YOU COULDN'T FIND THE SOUND IN THE PACKAGE IT MEANS IT'S NOT YET REPLACABLE
