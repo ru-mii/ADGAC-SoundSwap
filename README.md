@@ -15,7 +15,7 @@ Unzip the .zip file and place "Sounds" into "SoundSwap" folder plugin, should lo
 From now on all of the sounds in the "Sounds" folder will be loaded and used accordingly. For our example we wanted to replace the falling sound,
 I have checked and it's in Sounds/PlayerSoundManager, the folders that will have falling sound are "VoiceFall1", "VoiceFall2", "VoiceBigFall1".
 If you want to replace the sound with something else you go into that folder, then remove the old sound file and place your in there,
-in our example I am replacing the falling sound with a can sound (don't ask why), so what I removed the old file and placed my can.mp3 into the folder.
+in our example I am replacing the falling sound with a can sound (don't ask why), so I removed the old file and placed my can.mp3 into the folder.
 
 ![image](https://github.com/ru-mii/ADGAC-SoundSwap/assets/118167137/23234204-5ad5-4f25-aa70-651d830710ff)
 
