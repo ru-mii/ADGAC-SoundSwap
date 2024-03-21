@@ -36,3 +36,13 @@ loop -> will repeat the sound over and over when played once, it won't stop unle
 If you don't want volume or pitch to be random with each time it plays then change these values to 0, so it will look like this.  
 
 ![image](https://github.com/ru-mii/ADGAC-SoundSwap/assets/118167137/be4e2273-e12d-4abd-8ea6-cb08ec9f558e)
+
+# FAQ
+
+1. Is there a hotkey I could use to reload sounds without restarting the game?  
+* Yes! On your keyboard press M + F5.  
+
+2. Can I remove other folders if I'm not replacing sounds in them?
+* Yes! If you remove a folder that has a sound for example "kallsup1" in "SoundManager" it will simply leave the default game sound as it is,
+you can also remove the folders in higher hierarchy like "PlayerBodySoundManager", "PlayerSoundManager" or "SoundManager" if you're not replacing
+any sounds that fall in their structure, plugin will then just leave the default sound in the game.
