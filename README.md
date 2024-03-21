@@ -19,7 +19,7 @@ in our example I am replacing the falling sound with a can sound (don't ask why)
 
 ![image](https://github.com/ru-mii/ADGAC-SoundSwap/assets/118167137/23234204-5ad5-4f25-aa70-651d830710ff)
 
-The only thing that matters when it comes to naming stuff is the folders and "config.ini" (DO NOT RENAME THEM),
+The only thing that matters when it comes to naming stuff are the folders and "config.ini" (DO NOT RENAME THEM),
 the actual sound file can be named as whatever, make sure to have only one sound file in the folder though.
 
 # config.ini
