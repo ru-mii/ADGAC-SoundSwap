@@ -24,7 +24,7 @@ the actual sound file can be named as whatever, make sure to have only one sound
 
 # config.ini
 
-Each sound has their own config file, here are possible options in the config file you might encounter,
+Each sound has its own config file, here are possible options in the config file you might encounter,
 if you're seeing one option in one config file but the same option is not in the other one then do not
 add that option in there, it means that this specific option is not supported for that specific sound.
 
