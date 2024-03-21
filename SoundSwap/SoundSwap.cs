@@ -18,9 +18,14 @@ namespace SoundSwap
     [BepInPlugin(pluginGuid, pluginName, pluginVersion)]
     public class SoundSwap : BaseUnityPlugin
     {
+
+        #region Variables
+
         public const string pluginGuid = "04a39ea8969445baa93b8fb46dd4fbd7";
         public const string pluginName = "SoundSwap";
         public const string pluginVersion = "1.0";
+
+        public static string pluginPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
         public static BepInEx.Logging.ManualLogSource pLogger;
         Harmony harmony = new Harmony(pluginGuid);
@@ -38,9 +43,11 @@ namespace SoundSwap
 
         public static bool shouldReload = true;
 
+        #endregion Variables
+
         // ---------------------------------------
 
-        public static string pluginPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+        #region LocalFunctions
 
         private void Awake()
         {
@@ -81,6 +88,8 @@ namespace SoundSwap
 
             if (Input.GetKey(KeyCode.M) && Input.GetKeyDown(KeyCode.F5)) shouldReload = true;
         }
+
+        #endregion LocalFunctions
 
         // ---------------------------------------
 
@@ -137,6 +146,10 @@ namespace SoundSwap
             }
         }
 
+        #endregion SoundManager
+
+        #region PlayerSoundManager
+
         public static class PlayerSoundManager_Awake
         {
             public static bool Prefix(PlayerSoundManager __instance)
@@ -168,6 +181,10 @@ namespace SoundSwap
                 return false;
             }
         }
+
+        #endregion PlayerSoundManager
+
+        #region PlayerBodySoundManager
 
         public static class PlayerBodySoundManager_Awake
         {
@@ -201,7 +218,11 @@ namespace SoundSwap
             }
         }
 
-        #endregion SoundManager
+        #endregion PlayerBodySoundManager
+
+        // ---------------------------------------
+
+        #region InternalTools
 
         public static class Toolkit
         {
@@ -353,5 +374,7 @@ namespace SoundSwap
                 }
             }
         }
+
+        #endregion InternalTools
     }
 }
