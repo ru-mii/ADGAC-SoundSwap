@@ -27,12 +27,12 @@ Each sound has their own config file, here are possible options in the config fi
 if you're seeing one option in one config file but the same option is not in the other one then do not
 add that option in there, it means that this specific option is not supported for that specific sound.
 
-  volume -> as name suggests and volume of the sound
-  pitch -> the speed of the sound from 0 to 1.0, if you set it to 0.5 it will slow it down and play twice as long
-  random pitch -> ```pitch = (Random.Range(-randomPitch, randomPitch) + 1f) * pitch;```
-  random volume -> ```volume = (Random.Range(-randomVolume, randomVolume) + 1f) * volume;```
-  loop -> will repeat the sound over and over when played once, it won't stop unless game makes it
+volume -> as name suggests and volume of the sound  
+pitch -> the speed of the sound from 0 to 1.0, if you set it to 0.5 it will slow it down and play twice as long  
+random pitch -> ```pitch = (Random.Range(-randomPitch, randomPitch) + 1f) * pitch;```  
+random volume -> ```volume = (Random.Range(-randomVolume, randomVolume) + 1f) * volume;```  
+loop -> will repeat the sound over and over when played once, it won't stop unless game makes it  
 
-  If you don't want volume or pitch to be random with each time it plays then change these values to 0, so it will look like this.
+If you don't want volume or pitch to be random with each time it plays then change these values to 0, so it will look like this.  
 
 ![image](https://github.com/ru-mii/ADGAC-SoundSwap/assets/118167137/be4e2273-e12d-4abd-8ea6-cb08ec9f558e)
