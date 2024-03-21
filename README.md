@@ -31,7 +31,7 @@ if you're seeing one option in one config file but the same option is not in the
 add that option in there, it means that this specific option is not supported for that specific sound.
 
 volume -> as name suggests and volume of the sound  
-pitch -> the speed of the sound from 0 to 1.0, if you set it to 0.5 it will slow it down and play twice as long  
+pitch -> the speed of the sound, if you set it to 0.5 it will slow it down and play twice as long  
 random pitch -> ```pitch = (Random.Range(-randomPitch, randomPitch) + 1f) * pitch;```  
 random volume -> ```volume = (Random.Range(-randomVolume, randomVolume) + 1f) * volume;```  
 loop -> will repeat the sound over and over when played once, it won't stop unless game makes it  
