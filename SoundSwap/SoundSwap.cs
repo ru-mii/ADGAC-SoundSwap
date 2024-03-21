@@ -93,6 +93,9 @@ namespace SoundSwap
                 Sound sound = Array.Find(__instance.sounds, (Sound x) => x.name == name);
                 if (sound == null) return false;
 
+                if (!sound.source.gameObject.activeInHierarchy) sound.source.gameObject.SetActive(true);
+                if (!sound.source.enabled) sound.source.enabled = true;
+
                 sound.source.volume = (UnityEngine.Random.Range(-sound.randomVolume, sound.randomVolume) + 1f) * sound.volume;
                 sound.source.pitch = (UnityEngine.Random.Range(-sound.randomPitch, sound.randomPitch) + 1f) * sound.pitch;
                 sound.source.volume *= volume;
