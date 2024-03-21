@@ -39,10 +39,8 @@ If you don't want volume or pitch to be random with each time it plays then chan
 
 # FAQ
 
-**Is there a hotkey I could use to reload sounds without restarting the game?**  
-⋅⋅⋅Yes! On your keyboard press M + F5.  
-
-**Can I remove other folders if I'm not replacing sounds in them?**  
+1. Is there a hotkey I could use to reload sounds without restarting the game?
+2. Can I remove other folders if I'm not replacing sounds in them?
 ⋅⋅⋅Yes! If you remove a folder that has a sound for example "kallsup1" in "SoundManager" it will simply leave the default game sound as it is,
-⋅⋅⋅you can also remove the folders in higher hierarchy like "PlayerBodySoundManager", "PlayerSoundManager" or "SoundManager" if you're not replacing
-⋅⋅⋅any sounds that fall in their structure, plugin will then just leave the default sound in the game.
+you can also remove the folders in higher hierarchy like "PlayerBodySoundManager", "PlayerSoundManager" or "SoundManager" if you're not replacing
+any sounds that fall in their structure, plugin will then just leave the default sound in the game.
