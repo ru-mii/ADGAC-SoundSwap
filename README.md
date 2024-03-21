@@ -46,7 +46,7 @@ If you don't want volume or pitch to be random with each time it plays then chan
 **Can I remove other folders if I'm not replacing sounds in them?**  
 * Yes! If you remove a folder that has a sound for example "kallsup1" in "SoundManager" it will simply leave the default game sound as it is,
 you can also remove the folders in higher hierarchy like "PlayerBodySoundManager", "PlayerSoundManager" or "SoundManager" if you're not replacing
-any sounds that fall in their structure, plugin will then just leave the default sound in the game.
+any sounds that fall in their structure plugin will then just leave the default sound in the game.
 
 **Current version of the mod**
 * THERE ARE FEW GLOBAL SOUNDS THAT YOU WON'T FIND IN THE SOUNDS PACKAGE, THESE ARE NOT REPLACABLE AS OF NOW, IT WILL BE POSSIBLE WITHIN FEW DAYS AS I UPDATE THE MOD, IF YOU COULDN'T FIND THE SOUND IN THE PACKAGE IT MEANS IT'S NOT YET REPLACABLE
