@@ -39,7 +39,7 @@ If you don't want volume or pitch to be random with each time it plays then chan
 
 # FAQ
 
-1. Is there a hotkey I could use to reload sounds without restarting the game?  
+1. Is there a hotkey I could use to reload sounds without restarting the game?
 * Yes! On your keyboard press M + F5.  
 
 2. Can I remove other folders if I'm not replacing sounds in them?
