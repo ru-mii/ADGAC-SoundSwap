@@ -47,6 +47,10 @@ namespace SoundSwap
             // static logger
             pLogger = Logger;
 
+            // SoundManager -> PlaySound()
+            original.Add(AccessTools.Method(typeof(SoundManager), "PlaySound"));
+            patch.Add(AccessTools.Method(typeof(SoundManager_PlaySound), "Prefix"));
+
             // SoundManager -> Awake()
             original.Add(AccessTools.Method(typeof(SoundManager), "Awake"));
             patch.Add(AccessTools.Method(typeof(SoundManager_Awake), "Prefix"));
@@ -81,6 +85,20 @@ namespace SoundSwap
         // ---------------------------------------
 
         #region SoundManager
+
+        public static class SoundManager_PlaySound
+        {
+            public static bool Prefix(SoundManager __instance, string name)
+            {
+                Sound sound = Array.Find(__instance.sounds, (Sound x) => x.name == name);
+
+                if (sound == null || sound.source == null) return true;
+                if (!sound.source.gameObject.activeInHierarchy) sound.source.gameObject.SetActive(true);
+                if (!sound.source.enabled) sound.source.enabled = true;
+
+                return true;
+            }
+        }
 
         public static class SoundManager_Awake
         {
