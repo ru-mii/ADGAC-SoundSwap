@@ -80,13 +80,13 @@ namespace SoundSwap
 
         private void Update()
         {
+            if (Input.GetKey(KeyCode.M) && Input.GetKeyDown(KeyCode.F5)) shouldReload = true;
+
             if (shouldReload && SoundManager_Copy != null && PlayerSoundManager_Copy != null && PlayerBodySoundManager_Copy != null)
             {
                 StartCoroutine(LoadAudioFiles());
                 shouldReload = false;
             }
-
-            if (Input.GetKey(KeyCode.M) && Input.GetKeyDown(KeyCode.F5)) shouldReload = true;
         }
 
         #endregion LocalFunctions
