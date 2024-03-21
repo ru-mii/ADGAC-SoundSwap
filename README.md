@@ -22,7 +22,7 @@ in our example I am replacing the falling sound with a can sound (don't ask why)
 The only thing that matters when it comes to naming stuff are the folders and "config.ini" (DO NOT RENAME THEM),
 the actual sound file can be named as whatever, make sure to have only one sound file in the folder though.
 
-Supported audio formats: [AudioType](https://docs.unity3d.com/ScriptReference/AudioType.html)
+[Supported audio formats](https://docs.unity3d.com/ScriptReference/AudioType.html)
 
 # config.ini
 
