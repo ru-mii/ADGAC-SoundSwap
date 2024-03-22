@@ -66,7 +66,7 @@ namespace SoundSwap
             original.Add(AccessTools.Method(typeof(PlayerSoundManager), "Awake"));
             patch.Add(AccessTools.Method(typeof(PlayerSoundManager_Awake), "Prefix"));
 
-            // PlayerSoundManager -> Awake()
+            // PlayerBodySoundManager -> Awake()
             original.Add(AccessTools.Method(typeof(PlayerBodySoundManager), "Awake"));
             patch.Add(AccessTools.Method(typeof(PlayerBodySoundManager_Awake), "Prefix"));
 
