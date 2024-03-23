@@ -46,7 +46,7 @@ namespace SoundSwap
         public static AudioClip[] globalClips = new AudioClip[globalNames.Length];
 
         public static bool shouldReload = true;
-        public static bool shouldUnlockCursor = true;
+        public static bool shouldUnlockCursor = false;
 
         #endregion Variables
 
