@@ -125,8 +125,8 @@ namespace SoundSwap
             Patches.PatchAll();
 
             // move bepinex console
-            IntPtr consoleWindowHandle = FindWindow(null, "BepInEx 5.4.22.0 - A Difficult Game About Climbing");
-            if (consoleWindowHandle != IntPtr.Zero) SetWindowPos(consoleWindowHandle, IntPtr.Zero, -1200, 350, 0, 0, 5);
+            //IntPtr consoleWindowHandle = FindWindow(null, "BepInEx 5.4.22.0 - A Difficult Game About Climbing");
+            //if (consoleWindowHandle != IntPtr.Zero) SetWindowPos(consoleWindowHandle, IntPtr.Zero, -1200, 350, 0, 0, 5);
         }
 
         private void Update()
