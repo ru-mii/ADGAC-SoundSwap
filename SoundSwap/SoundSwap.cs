@@ -23,7 +23,7 @@ namespace SoundSwap
 
         public const string pluginGuid = "04a39ea8969445baa93b8fb46dd4fbd7";
         public const string pluginName = "SoundSwap";
-        public const string pluginVersion = "4.0.0";
+        public const string pluginVersion = "5.0.0";
 
         public static string pluginPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
