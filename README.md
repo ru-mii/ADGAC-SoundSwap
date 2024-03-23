@@ -7,7 +7,7 @@ This mod is created to work with [BepInEx](https://github.com/BepInEx/BepInEx), 
 # How to use?
 
 In this example I will show you how to replace the falling sound.
-Download the default sound [package](https://pixeldrain.com/u/u6c2QsX3) for the game, it has the required structure and all the sounds with their names so you would know which one is the one you want to replace.
+Download the default sound [package](https://pixeldrain.com/u/CRGxQvX7) for the game, it has the required structure and all the sounds with their names so you would know which one is the one you want to replace.
 Unzip the .zip file and place "Sounds" into "SoundSwap" folder plugin, should look like this... 
 
 ![image](https://github.com/ru-mii/ADGAC-SoundSwap/assets/118167137/92b02b27-7f68-400a-9706-4d62a9b2f14c)
@@ -49,6 +49,3 @@ If you don't want volume or pitch to be random with each time it plays then chan
 * Yes! If you remove a folder that has a sound for example "kallsup1" in "SoundManager" it will simply leave the default game sound as it is,
 you can also remove the folders in higher hierarchy like "PlayerBodySoundManager", "PlayerSoundManager" or "SoundManager" if you're not replacing
 any sounds that fall in their structure plugin will then just leave the default sound in the game.
-
-**Current version of the mod**
-* THERE ARE FEW GLOBAL SOUNDS THAT YOU WON'T FIND IN THE SOUNDS PACKAGE, THESE ARE NOT REPLACABLE AS OF NOW, IT WILL BE POSSIBLE WITHIN FEW DAYS AS I UPDATE THE MOD, IF YOU COULDN'T FIND THE SOUND IN THE PACKAGE IT MEANS IT'S NOT YET REPLACABLE
